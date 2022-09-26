@@ -53,7 +53,7 @@ function App() {
 
 
   return (
-    <div style={containerStyle} className="App">
+    <div style={coords && containerStyle} className="App">
       {
         weather ?
           <WeatherCard 

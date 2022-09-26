@@ -4,6 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url('https://i0.wp.com/wikisabio.com/wp-content/uploads/2020/10/concepto-climas-lifeder-min.jpg?fit=900%2C471&ssl=1');
     background-size: cover;
     background-position: center;
 }
@@ -94,4 +95,20 @@
     box-shadow: 10px 10px 10px black;
     transform: scale(1.1);
     transition: 0.5s;
+}
+
+
+.loadingCard{
+    color: white;
+    background-color: rgba(137, 43, 226, 0.623);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 300px;
+    padding: 20px;
+    gap: 10px;
+    border-radius: 10px;
+    border: 2px solid blueviolet;
 }
